@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Network Engineer & Front-End Expert",
+    "greeting": "Hi, I'm",
+    "name": "Marwan Karaga",
+    "description": "A Senior Front-End Developer with 4 years of experience building highly scalable web applications, FinTech systems, TravelTech platforms, F&B management tools, and high-performance corporate solutions.",
+    "cta": "View My Work"
+  },
+  "skills": {
+    "title": "Technical Skills"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "visitSite": "Visit Live Site",
+    "visitApp": "Visit Live App",
+    "visitPlatform": "Visit Platform",
+    "items": {
+      "ataya": {
+        "name": "Ataya (عطايا)",
+        "badge": "Solo Project",
+        "description": "A comprehensive real-time auction platform operating in Saudi Arabia. I single-handedly built the entire front-end architecture, featuring low-latency live bidding via WebSockets, complex admin dashboards, and secure payment integrations."
+      },
+      "diaarna": {
+        "name": "Diaarna (ديارنا)",
+        "badge": "UI/UX & Dev",
+        "description": "A full-scale real estate platform for the Saudi market handling sales, rentals, and installments. I designed the UI on Figma and built a complex multi-dashboard ecosystem featuring advanced financial and flexible payment modules."
+      },
+      "smartkids": {
+        "name": "Smart Kids Montessori",
+        "badge": "Enterprise System",
+        "description": "A massive educational management system built for a prestigious school network. I engineered a highly scalable admin dashboard managing thousands of students across 9 branches, featuring dynamic survey modules, complex role-based permissions, and Google Analytics integration."
+      },
+      "mendar": {
+        "name": "Mendar (مندار)",
+        "badge": "SaaS Dashboard",
+        "description": "Developed the comprehensive administrative dashboard for Mendar, a smart platform connecting users with home maintenance professionals. Built dynamic management interfaces for technicians, service categories, and users, seamlessly integrating financial tracking and real-time order status modules."
+      },
+      "unoshop": {
+        "name": "UnoShop",
+        "badge": "Dynamic E-Commerce",
+        "description": "Engineered a highly customizable, multi-theme e-commerce platform. The standout feature is a robust dynamic theme builder integrated into the massive admin dashboard, allowing site owners to alter themes, UI components, colors, and layouts in real-time without touching the codebase."
+      },
+      "payrollai": {
+        "name": "PayrollAI",
+        "badge": "Enterprise HR & FinTech",
+        "description": "Developed a comprehensive, cross-company HR and payroll management platform deployed on Azure in just 3 months. The system features a highly complex role-based architecture, automated salary calculations, bulk Excel processing, interactive data visualization, and an internal ticketing system."
+      },
+      "universalregister": {
+        "name": "Universal Register",
+        "badge": "Maritime & Security",
+        "description": "Designed and engineered a specialized maritime registration and certification platform for the UAE shipping industry. Built a secure admin dashboard featuring a multi-step verification process, automated QR code generation for document tracking, and integrated electronic signatures for issuing official certificates."
+      },
+      "businessworld": {
+        "name": "Business World",
+        "badge": "Corporate Website",
+        "description": "Designed and developed a professional, high-performance corporate landing page for Business World Holding. Focused on SEO optimization, fast loading times, and a fully responsive layout to effectively communicate the company's global presence, principles, and services."
+      },
+      "unocode": {
+        "name": "UnoCode",
+        "badge": "Tech Agency",
+        "description": "Built a modern, sleek landing page for a digital tech agency specializing in software solutions. Implemented engaging UI elements, smooth scroll interactions, and a mobile-first design approach to create a compelling user experience that converts visitors into potential clients."
+      },
+      "unomenu": {
+        "name": "UnoMenu",
+        "badge": "F&B Management",
+        "description": "Developed a comprehensive smart restaurant management and digital menu system catering to the UAE F&B sector. The platform handles complex operations including real-time order tracking, dine-in table management, takeaway, and delivery workflows. It features seamless multi-language and multi-currency support, alongside advanced financial analytics and order status filtering."
+      },
+      "fastexpress": {
+        "name": "Fast Express Shipping",
+        "badge": "Logistics & Shipping",
+        "description": "Developed a professional, multi-lingual corporate website for Fast Express Shipping, a logistics company based in Dubai. The platform showcases their global shipping services with a modern, responsive design, ensuring fast loading speeds and an optimized user experience for international clients."
+      },
+      "phoenitravel": {
+        "name": "Phoeni Travel",
+        "badge": "TravelTech & Real-Time",
+        "description": "Engineered a comprehensive travel and e-visa processing platform. The system empowers admins to digitally configure visa requirements and pricing, while users apply through a highly optimized, dynamic multi-step form. Additional features include travel package bookings, event management, and a real-time customer support chat integrated via Pusher."
+      }
+    }
+  },
+  "footer": {
+    "title": "Let's Work Together",
+    "subtitle": "Currently open for new remote opportunities.",
+    "email": "mrwankaraga44@gmail.com",
+    "copyright": "© 2026  All rights reserved."
+  },
+  "photo": "[Your Photo]"
+}
