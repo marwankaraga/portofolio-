@@ -1,19 +1,79 @@
 {
   "nav": {
     "about": "About",
+    "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact"
   },
   "hero": {
-    "subtitle": "Network Engineer & Front-End Expert",
+    "subtitle": "Senior Engineer & Technical Architect",
     "greeting": "Hi, I'm",
     "name": "Marwan Karaga",
-    "description": "A Senior Front-End Developer with 4 years of experience building highly scalable web applications, FinTech systems, TravelTech platforms, F&B management tools, and high-performance corporate solutions.",
+    "description": "Senior Front-End Developer with 4 years of expertise in React.js, Next.js, and TypeScript, delivering scalable web applications and bridging sophisticated UI/UX with robust technical solutions. Backed by a Network Engineering foundation, offering deep knowledge of secure server deployments, network security, and CI/CD pipelines. A strategic leader experienced in bootstrapping complex codebases and integrating advanced functionalities like payment gateways. Uniquely versatile, combining technical mastery with advanced AI Prompt Engineering, data analysis, and the management of high-budget digital marketing campaigns.",
     "cta": "View My Work"
   },
+  "experience": {
+    "title": "Professional Experience",
+    "items": {
+      "sewar": {
+        "period": "2026 - Present",
+        "role": "Social Media Manager & Graphic Designer",
+        "company": "sewar gourmet restaurant",
+        "location": "Remote - Iraq",
+        "points": [
+          "Managed and funded large-scale, high-budget advertising campaigns using Meta Ads Manager and Meta Business Suite, strategically targeting the Iraqi market to maximize ROI.",
+          "Executed comprehensive social media strategies and content management across Facebook and Instagram to drive audience engagement.",
+          "Designed high-quality visual assets, branding elements, and promotional video reels using Adobe Photoshop, Canva, and video editing tools.",
+          "Analyzed campaign performance and engagement metrics to optimize reach and enhance brand awareness continuously."
+        ]
+      },
+      "stars": {
+        "period": "2023 - 2026/02",
+        "role": "Senior Next.js Developer",
+        "company": "Stars Tech Company",
+        "location": "Remote - Saudi Arabia",
+        "points": [
+          "Accounting and Real Estate Applications Working Group",
+          "Conducting interviews with people in the technical field to serve the business",
+          "Real Estate & Financial Modules: Developed \"Diaarna\", a full-scale real estate portal with 3 distinct dashboards, integrating complex installment calculators and multi-party financial management."
+        ]
+      },
+      "bw": {
+        "period": "2022 - Present",
+        "role": "Next-React Developer",
+        "company": "BW Company",
+        "location": "Saudi Arabia",
+        "points": [
+          "Developed and maintained React-based web applications for clients in various industries.",
+          "Collaborated with cross-functional teams to gather requirements and translate them into technical solutions."
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "period": "2016 - 2021",
+    "degree": "Computer, Networks and Systems Engineering",
+    "university": "Tishreen University",
+    "location": "Lattakia, Syria"
+  },
   "skills": {
-    "title": "Technical Skills"
+    "title": "Technical Skills",
+    "categories": {
+      "languages": "Programming Languages",
+      "frameworks": "Frameworks",
+      "tools": "Tools",
+      "os": "Operating Systems",
+      "other": "Other",
+      "design": "Knowledge of UI/UX design principles",
+      "fetching": "Fetching Data",
+      "state": "State Management",
+      "ai": "AI Prompt Engineering",
+      "social_media": "Social Media & Marketing",
+      "graphic_design": "Graphic Design",
+      "office": "Office & Computer Proficiency"
+    }
   },
   "projects": {
     "title": "Featured Projects",
@@ -80,6 +140,21 @@
         "name": "Phoeni Travel",
         "badge": "TravelTech & Real-Time",
         "description": "Engineered a comprehensive travel and e-visa processing platform. The system empowers admins to digitally configure visa requirements and pricing, while users apply through a highly optimized, dynamic multi-step form. Additional features include travel package bookings, event management, and a real-time customer support chat integrated via Pusher."
+      },
+      "phoenijobs": {
+        "name": "Phoeni Jobs",
+        "badge": "Job Portal",
+        "description": "A comprehensive job portal for the Syrian market, connecting employers with potential candidates. Features include advanced job searching, resume building, and employer dashboards."
+      },
+      "caprianigelato": {
+        "name": "Capriani Gelato",
+        "badge": "E-Commerce",
+        "description": "An elegant e-commerce and brand showcase website for Capriani Gelato. The platform highlights their premium gelato products with a visually appealing design and smooth user experience."
+      },
+      "sewargourmet": {
+        "name": "Sewar Gourmet",
+        "badge": "Brand & Menu Mgmt",
+        "description": "Managed the digital presence, funding, design, and menu creation for Sewar Gourmet. Focused on delivering a cohesive brand identity and a premium culinary experience through engaging visual content."
       }
     }
   },
@@ -87,7 +162,10 @@
     "title": "Let's Work Together",
     "subtitle": "Currently open for new remote opportunities.",
     "email": "mrwankaraga44@gmail.com",
-    "copyright": "© 2026  All rights reserved."
+    "whatsapp": "+963995326485",
+    "linkedin": "linkedin.com/in/marwan-karaga-805950202",
+    "location": "Syria",
+    "copyright": "© 2026 Marwan Karaga. All rights reserved."
   },
   "photo": "[Your Photo]"
 }

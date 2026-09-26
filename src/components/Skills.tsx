@@ -1,14 +1,66 @@
 import { useTranslation } from 'react-i18next';
 
-const skills = [
-  { name: 'React.js', color: 'blue' },
-  { name: 'Next.js', color: 'gray' },
-  { name: 'TypeScript', color: 'blue' },
-  { name: 'Tailwind CSS', color: 'teal' },
-  { name: 'WebSockets (Pusher)', color: 'purple' },
-  { name: 'Complex State Management', color: 'emerald' },
-  { name: 'GitLab CI/CD', color: 'green' },
-  { name: 'Figma (UI/UX)', color: 'pink' },
+const skillCategories = [
+  {
+    id: 'languages',
+    items: ['JavaScript (ES6)', 'Python', 'TypeScript'],
+    color: 'blue'
+  },
+  {
+    id: 'frameworks',
+    items: ['React.js', 'Next.js'],
+    color: 'teal'
+  },
+  {
+    id: 'tools',
+    items: ['Bootstrap 4', 'Bootstrap 5', 'Material UI', 'Rizz UI'],
+    color: 'purple'
+  },
+  {
+    id: 'os',
+    items: ['Windows', 'Linux'],
+    color: 'gray'
+  },
+  {
+    id: 'other',
+    items: ['HTML5', 'CSS3', 'Tailwind CSS', 'Sass', 'Next.js 14'],
+    color: 'pink'
+  },
+  {
+    id: 'design',
+    items: ['Figma UI/UX'],
+    color: 'emerald'
+  },
+  {
+    id: 'fetching',
+    items: ['Redux Toolkit', 'React Query'],
+    color: 'blue'
+  },
+  {
+    id: 'state',
+    items: ['Jotai', 'Atom', 'Redux', 'Zustand React'],
+    color: 'green'
+  },
+  {
+    id: 'ai',
+    items: ['Generative AI Tools', 'Workflow Optimization'],
+    color: 'purple'
+  },
+  {
+    id: 'social_media',
+    items: ['Meta Ads Manager', 'Social Media Strategy', 'Content Management', 'ROI Optimization'],
+    color: 'teal'
+  },
+  {
+    id: 'graphic_design',
+    items: ['Adobe Photoshop', 'Canva', 'Video Editing', 'Brand Identity Design'],
+    color: 'pink'
+  },
+  {
+    id: 'office',
+    items: ['Microsoft Office Suite', 'Microsoft Word', 'Microsoft Excel', 'General Computer Proficiency'],
+    color: 'gray'
+  }
 ];
 
 const colorClasses: Record<string, string> = {
@@ -25,19 +77,29 @@ const Skills = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="skills" className="bg-white py-16">
-      <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+    <section id="skills" className="bg-white py-20">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
           {t('skills.title')}
         </h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {skills.map((skill) => (
-            <span
-              key={skill.name}
-              className={`px-4 py-2 rounded-full font-medium border ${colorClasses[skill.color]}`}
-            >
-              {skill.name}
-            </span>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {skillCategories.map((category) => (
+            <div key={category.id} className="bg-gray-50 rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200">
+                {t(`skills.categories.${category.id}`)}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {category.items.map((skill) => (
+                  <span
+                    key={skill}
+                    className={`px-3 py-1 text-sm rounded-full font-medium border ${colorClasses[category.color]}`}
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>

@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ function App() {
     <div className="bg-gray-50 text-gray-800 antialiased min-h-screen">
       <Navbar />
       <Hero />
+      <Experience />
       <Skills />
       <Projects />
       <Footer />

@@ -165,6 +165,34 @@ const projects: Project[] = [
     ],
     reverse: true,
   },
+  {
+    id: 'phoenijobs',
+    badgeColor: 'bg-purple-100 text-purple-800',
+    technologies: ['React.js', 'Tailwind CSS', 'Job Portal'],
+    link: 'https://phoenijobs.sy/',
+    images: [
+      new URL('../assets/images/phoenijobs/1.png', import.meta.url).href,
+    ],
+  },
+  {
+    id: 'caprianigelato',
+    badgeColor: 'bg-orange-100 text-orange-800',
+    technologies: ['React', 'E-Commerce', 'UI/UX'],
+    link: 'https://caprianigelato.com/',
+    images: [
+      new URL('../assets/images/caprianigelato/1.png', import.meta.url).href,
+    ],
+    reverse: true,
+  },
+  {
+    id: 'sewargourmet',
+    badgeColor: 'bg-red-100 text-red-800',
+    technologies: ['Branding', 'Management', 'Menu Design'],
+    link: 'https://www.instagram.com/sewargourmet/',
+    images: [
+      new URL('../assets/images/sewargourmet/1.png', import.meta.url).href,
+    ],
+  },
 ];
 
 const Projects = () => {

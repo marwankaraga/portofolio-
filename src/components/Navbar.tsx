@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const navLinks = [
     { href: '#about', label: t('nav.about') },
+    { href: '#experience', label: t('nav.experience') },
     { href: '#skills', label: t('nav.skills') },
     { href: '#projects', label: t('nav.projects') },
     { href: '#contact', label: t('nav.contact') },
